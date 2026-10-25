@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinity Mailer Boost | Free to Join</title>
+  <meta name="description" content="Discover Infinity Mailer Boost, a free-to-join list mailer with advertising options and affiliate earning potential.">
+  <style>
+    :root {
+      --red: #c91520;
+      --dark-red: #990d16;
+      --ink: #171717;
+      --gray: #555;
+      --light: #f5f5f5;
+      --line: #dedede;
+      --green: #147a35;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #ededed;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.55;
+    }
+    .page {
+      width: min(960px, calc(100% - 24px));
+      margin: 22px auto;
+      background: #fff;
+      border: 1px solid #d0d0d0;
+      box-shadow: 0 3px 14px rgba(0,0,0,.10);
+    }
+    .topbar {
+      background: var(--red);
+      color: #fff;
+      padding: 10px 18px;
+      text-align: center;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .7px;
+      font-size: 13px;
+    }
+    header {
+      padding: 28px 24px 20px;
+      text-align: center;
+      border-bottom: 4px solid var(--red);
+    }
+    h1 {
+      margin: 0 auto 12px;
+      max-width: 820px;
+      font-size: clamp(30px, 5.4vw, 48px);
+      line-height: 1.08;
+      font-weight: 900;
+      letter-spacing: -.8px;
+      text-transform: uppercase;
+    }
+    h1 span { color: var(--red); }
+    .subhead {
+      max-width: 760px;
+      margin: 0 auto;
+      color: #333;
+      font-size: clamp(17px, 2.6vw, 21px);
+      font-weight: 700;
+    }
+    main { padding: 22px 24px 30px; }
+    .notice {
+      background: #fff7f7;
+      border: 1px solid #efc4c7;
+      border-left: 5px solid var(--red);
+      padding: 13px 16px;
+      margin: 0 auto 22px;
+      max-width: 800px;
+      font-size: 15px;
+    }
+    .video-wrap {
+      max-width: 820px;
+      margin: 0 auto 24px;
+      padding: 8px;
+      background: #171717;
+      border: 3px solid #333;
+      box-shadow: 0 4px 0 #bbb;
+    }
+    .video-frame {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #050505;
+    }
+    video {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #050505;
+    }
+    .video-help {
+      margin: 8px 0 0;
+      text-align: center;
+      color: #666;
+      font-size: 12px;
+    }
+    h2 {
+      margin: 26px 0 12px;
+      text-align: center;
+      font-size: clamp(23px, 3.5vw, 31px);
+      line-height: 1.2;
+    }
+    h2 .red { color: var(--red); }
+    .intro {
+      max-width: 760px;
+      margin: 0 auto 18px;
+      text-align: center;
+      font-size: 17px;
+    }
+    .features {
+      max-width: 760px;
+      margin: 18px auto 25px;
+      padding: 0;
+      list-style: none;
+    }
+    .features li {
+      position: relative;
+      padding: 11px 12px 11px 42px;
+      margin: 8px 0;
+      border: 1px solid #e5e5e5;
+      background: #fafafa;
+      font-size: 16px;
+    }
+    .features li::before {
+      content: "✓";
+      position: absolute;
+      left: 13px;
+      top: 9px;
+      color: var(--green);
+      font-weight: 900;
+      font-size: 20px;
+    }
+    .cta-box {
+      max-width: 760px;
+      margin: 24px auto 10px;
+      padding: 22px 18px;
+      text-align: center;
+      background: #f7f7f7;
+      border: 2px solid var(--red);
+    }
+    .cta-box h2 { margin-top: 0; }
+    .cta-button {
+      display: inline-block;
+      margin: 10px auto 6px;
+      padding: 16px 28px;
+      max-width: 100%;
+      background: var(--red);
+      border: 0;
+      border-bottom: 5px solid var(--dark-red);
+      color: #fff !important;
+      text-decoration: none;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: clamp(16px, 2.5vw, 21px);
+      line-height: 1.2;
+      box-shadow: 0 2px 5px rgba(0,0,0,.18);
+    }
+    .cta-button:hover { background: #ad111b; }
+    .small { color: #666; font-size: 12px; }
+    .disclosure {
+      max-width: 760px;
+      margin: 22px auto 0;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      color: #666;
+      font-size: 12px;
+    }
+    footer {
+      padding: 14px 20px;
+      background: #222;
+      color: #ddd;
+      text-align: center;
+      font-size: 12px;
+    }
+    @media (max-width: 600px) {
+      .page { width: 100%; margin: 0 auto; border-left: 0; border-right: 0; }
+      header { padding: 24px 16px 18px; }
+      main { padding: 18px 14px 24px; }
+      .topbar { padding: 9px 10px; font-size: 11px; }
+      .video-wrap { padding: 4px; }
+      .features li { font-size: 15px; }
+      .cta-button { width: 100%; padding: 15px 12px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="topbar">A straightforward look at Infinity Mailer Boost</div>
+
+    <header>
+      <h1>Want More Eyes on Your Offers? <span>Start Here.</span></h1>
+      <p class="subhead">Take a look at Infinity Mailer Boost, a free-to-join list mailer built around member messages, advertising options, and affiliate referrals.</p>
+    </header>
+
+    <main>
+      <div class="notice">
+        <strong>Watch the video first.</strong> Get a feel for how the mailer works, then decide whether it fits your marketing approach.
+      </div>
+
+      <div class="video-wrap">
+        <div class="video-frame">
+          <!-- Replace the placeholder below with the public direct URL to your uploaded MP4.
+               The MP4 must be hosted online; a file uploaded only to ChatGPT cannot play on your LeadsLeap page. -->
+          <video controls playsinline preload="metadata" poster="">
+            <source src="PASTE_YOUR_PUBLIC_MP4_URL_HERE" type="video/mp4">
+            Your browser does not support HTML5 video. Please use an updated browser.
+          </video>
+        </div>
+      </div>
+      <p class="video-help">Use the player controls to play, pause, or adjust the volume.</p>
+
+      <h2>What Is <span class="red">Infinity Mailer Boost?</span></h2>
+      <p class="intro">
+        Infinity Mailer Boost is a list mailer where members can read messages from other members and use advertising options to get their offers in front of the community. You can start with a free account and explore the details before deciding whether to upgrade.
+      </p>
+
+      <ul class="features">
+        <li><strong>Start free.</strong> Register at no cost and review the platform from the inside.</li>
+        <li><strong>Promote your links.</strong> Use the available mailer and advertising features to put your business in front of members.</li>
+        <li><strong>Explore affiliate referrals.</strong> The program advertises commissions on qualifying advertising package sales; your actual rate depends on the program's current terms and membership level.</li>
+        <li><strong>International payment options.</strong> The platform lists several cryptocurrency and other payment methods. Check the current terms for supported options and eligibility.</li>
+      </ul>
+
+      <div class="cta-box">
+        <h2>Ready to Take a Look?</h2>
+        <p>You can register free, review the details, and decide for yourself if Infinity Mailer Boost belongs in your marketing toolkit.</p>
+        <a class="cta-button" href="https://infinitytrafficboost.com/m.php?aff=scottyraehorner" target="_blank" rel="noopener noreferrer">Get Started Free</a>
+        <div class="small">No income is guaranteed. Review all costs, terms, and advertising options before purchasing.</div>
+      </div>
+
+      <div class="disclosure">
+        <strong>Affiliate disclosure:</strong> This page contains an affiliate link. If you join or purchase through it, the page owner may receive a commission at no additional cost to you. Results vary, and earnings are not guaranteed. Always review the official program terms before making a decision.
+      </div>
+    </main>
+
+    <footer>
+      Independent promotional page. Infinity Mailer Boost is responsible for its own products, services, pricing, and terms.
+    </footer>
+  </div>
+</body>
+</html>
